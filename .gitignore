@@ -3,5 +3,6 @@ configstore
 karabiner
 neofetch
 ranger
+nvim/autoload/plugged
 
 .DS_Store
