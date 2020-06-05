@@ -4,5 +4,6 @@ karabiner
 neofetch
 ranger
 nvim/autoload/plugged
+.tmux
 
 .DS_Store
