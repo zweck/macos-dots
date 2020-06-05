@@ -9,7 +9,7 @@ augroup END
 " augroup END
 
 function! Scratch()
-    split
+    " split
     noswapfile hide enew
     setlocal buftype=nofile
     setlocal bufhidden=hide
