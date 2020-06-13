@@ -95,6 +95,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Vim Wiki
     " Plug 'https://github.com/vimwiki/vimwiki.git'
     Plug 'terryma/vim-multiple-cursors'
+
+    " Delete other buffers
+    Plug  'vim-scripts/BufOnly.vim'
   endif
 
 

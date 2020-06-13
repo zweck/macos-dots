@@ -30,6 +30,10 @@ yabai -m config window_opacity on
 yabai -m config active_window_opacity 1.0
 yabai -m config normal_window_opacity 0.9
 
+yabai -m signal --add event=space_changed \
+    action="osascript -e 'tell application \"Übersicht\" to refresh widget id \"spaces-widget\"'"
+
+yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add label=emacs app=Emacs manage=on
 
 echo "yabai configuration loaded.."

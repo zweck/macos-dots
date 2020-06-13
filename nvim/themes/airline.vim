@@ -1,12 +1,11 @@
 " enable tabline
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = ''
 let g:airline#extensions#tabline#right_sep = ''
 let g:airline#extensions#tabline#right_alt_sep = ''
 let airline#extensions#tabline#show_splits = 0
 let airline#extensions#tabline#tabs_label = ''
-le
 
 " Disable tabline close button
 let g:airline#extensions#tabline#show_close_button = 0
@@ -34,7 +33,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 " let g:airline_theme = 'onedark'
 
 " Always show tabs
-set showtabline=2
+set showtabline=0
 
 " We don't need to see things like -- INSERT -- anymore
 set noshowmode
