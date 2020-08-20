@@ -37,7 +37,6 @@ let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
 let g:which_key_map['f'] = [ ':Files'                     , 'search files' ]
 let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
 let g:which_key_map['q'] = [ 'q'                          , 'quit' ]
-let g:which_key_map['r'] = [ ':RnvimrToggle'              , 'ranger' ]
 let g:which_key_map['S'] = [ ':SSave'                     , 'save session' ]
 let g:which_key_map['T'] = [ ':Rg'                        , 'search text' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
@@ -114,6 +113,7 @@ let g:which_key_map.g = {
       \ 'c' : [':Git commit'                       , 'commit'],
       \ 'd' : [':Git diff'                         , 'diff'],
       \ 'D' : [':Gdiffsplit'                       , 'diff split'],
+      \ 'e' : [':Gedit'                            , 'working copy'],
       \ 'g' : [':GGrep'                            , 'git grep'],
       \ 'G' : [':Gstatus'                          , 'status'],
       \ 'h' : [':GitGutterLineHighlightsToggle'    , 'highlight hunks'],
@@ -121,11 +121,11 @@ let g:which_key_map.g = {
       \ 'j' : ['<Plug>(GitGutterNextHunk)'         , 'next hunk'],
       \ 'k' : ['<Plug>(GitGutterPrevHunk)'         , 'prev hunk'],
       \ 'l' : [':Git log'                          , 'log'],
-      \ 'p' : [':Git push'                         , 'push'],
-      \ 'P' : [':Git pull'                         , 'pull'],
+      \ 'n' : [':cnext'                            , 'next version'],
+      \ 'p' : [':cprev'                            , 'previous version'],
       \ 'r' : [':GRemove'                          , 'remove'],
       \ 's' : ['<Plug>(GitGutterStageHunk)'        , 'stage hunk'],
-      \ 't' : [':GitGutterSignsToggle'             , 'toggle signs'],
+      \ 't' : [':0Glog'                            , 'transient state'],
       \ 'u' : ['<Plug>(GitGutterUndoHunk)'         , 'undo hunk'],
       \ 'v' : [':GV'                               , 'view commits'],
       \ 'V' : [':GV!'                              , 'view buffer commits'],
@@ -180,7 +180,6 @@ let g:which_key_map.t = {
       \ 'n' : [':FloatermNew node'                              , 'node'],
       \ 'N' : [':FloatermNew nnn'                               , 'nnn'],
       \ 'p' : [':FloatermNew python'                            , 'python'],
-      \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
       \ 't' : [':FloatermToggle'                                , 'toggle'],
       \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
       \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
@@ -206,32 +205,6 @@ let g:which_key_map.w = {
       \ 'u' : ['<plug>(wiki-list-uniq)'                              , 'ncdu'],
       \ 'U' : ['<plug>(wiki-list-uniq-local)'                              , 'ncdu'],
       \ }
-
-" Global
-" <Plug>VimwikiIndex
-" <Plug>VimwikiTabIndex
-" <Plug>VimwikiUISelect
-" <Plug>VimwikiDiaryIndex
-" <Plug>VimwikiMakeDiaryNote
-" <Plug>VimwikiTabMakeDiaryNote
-" <Plug>VimwikiMakeYesterdayDiaryNote
-" <Plug>VimwikiMakeTomorrowDiaryNote
-"
-" " Local
-" <Plug>Vimwiki2HTML
-" <Plug>Vimwiki2HTMLBrowse
-" <Plug>VimwikiDiaryGenerateLinks
-" <Plug>VimwikiFollowLink
-" <Plug>VimwikiSplitLink
-" <Plug>VimwikiVSplitLink
-" <Plug>VimwikiTabnewLink
-" <Plug>VimwikiGoBackLink
-" <Plug>VimwikiNextLink
-" <Plug>VimwikiPrevLink
-" <Plug>VimwikiGoto
-" <Plug>VimwikiDeleteLink
-" <Plug>VimwikiRenameLink
-" <Plug>VimwikiAddHeaderLevel
 
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")

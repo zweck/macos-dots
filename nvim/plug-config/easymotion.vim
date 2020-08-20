@@ -1,19 +1,3 @@
-" let g:EasyMotion_do_mapping = 0 " Disable default mappings
-" " Turn on case-insensitive feature
-" let g:EasyMotion_smartcase = 1
-
-" " JK motions: Line motions
-" map <Leader>j <Plug>(easymotion-j)
-" map <Leader>k <Plug>(easymotion-k)
-
-" nmap s <Plug>(easymotion-s2)
-" nmap t <Plug>(easymotion-t2)
-
-" TODO add separate section for vscode
-
-" map  <Leader>f <Plug>(easymotion-bd-f)
-" nmap <Leader>f <Plug>(easymotion-overwin-f)
-
 " s{char}{char} to move to {char}{char}
 nmap s <Plug>(easymotion-overwin-f2)
 " nmap S <Plug>(easymotion-overwin-t)

@@ -1,0 +1,67 @@
+# Font configuration (changes require restart)
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: Hack Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+  # The bold font face
+  bold:
+    family: Hack Nerd Font
+    # Style can be specified to pick a specific face.
+    # style: Bold
+
+  # The italic font face
+  italic:
+    family: Hack Nerd Font
+    # Style can be specified to pick a specific face.
+    # style: Italic
+
+  size: 14
+
+# Colors (Tomorrow Night)
+colors:
+  # Default colors
+  primary:
+    background: "#1d1f21"
+    foreground: "#c5c8c6"
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: "#1d1f21"
+    cursor: "#ffffff"
+
+  # Normal colors
+  normal:
+    black: "#1d1f21"
+    red: "#cc6666"
+    green: "#b5bd68"
+    yellow: "#e6c547"
+    blue: "#81a2be"
+    magenta: "#b294bb"
+    cyan: "#70c0ba"
+    white: "#373b41"
+
+  # Bright colors
+  bright:
+    black: "#666666"
+    red: "#ff3334"
+    green: "#9ec400"
+    yellow: "#f0c674"
+    blue: "#81a2be"
+    magenta: "#b77ee0"
+    cyan: "#54ced6"
+    white: "#282a2e"
+
+key_bindings:
+  - { key: Key0, mods: Alt, chars: "\x1b0" }
+  - { key: Key1, mods: Alt, chars: "\x1b1" }
+  - { key: Key2, mods: Alt, chars: "\x1b2" }
+  - { key: Key3, mods: Alt, chars: "\x1b3" }
+  - { key: Key4, mods: Alt, chars: "\x1b4" }
+  - { key: Key5, mods: Alt, chars: "\x1b5" }
+  - { key: Key6, mods: Alt, chars: "\x1b6" }
+  - { key: Key7, mods: Alt, chars: "\x1b7" }
+  - { key: Key8, mods: Alt, chars: "\x1b8" }
+  - { key: Key9, mods: Alt, chars: "\x1b9" }
