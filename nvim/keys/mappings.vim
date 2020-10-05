@@ -11,9 +11,12 @@ nnoremap <Space> <Nop>
 " Better indenting
 vnoremap < <gv
 vnoremap > >gv
+vnoremap <tab> =
 
 " easy highlight and replace
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
+nnoremap <leader>/ :CocSearch <C-r>=expand("<cword>")<CR>
 
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")

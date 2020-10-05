@@ -17,3 +17,8 @@ function! Scratch()
     "lcd ~
     file scratch
 endfunction
+
+function! ProjectSearch()
+  let search_term = input('Search term: ')
+  call CocSearch(search_term)
+endfunction
