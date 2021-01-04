@@ -1,7 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
-let g:netrw_dirhist_5='/Volumes/DSS/weapon-x/packages/wolverine-ui/src'
-let g:netrw_dirhist_4='/Volumes/DSS/weapon-x/packages/wolverine-ui'
-let g:netrw_dirhist_3='/Volumes/DSS/weapon-x/packages/wolverine-ui/src/helpers'
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Volumes/DSS/weapon-x/packages/wolverine-ui'
+let g:netrw_dirhist_9='/Volumes/DSS/weapon-x/packages/wolverine-ui/src'
+let g:netrw_dirhist_8='/Volumes/DSS/weapon-x/packages/wolverine-ui'
+let g:netrw_dirhist_7='/Volumes/DSS/weapon-x/packages/wolverine-ui/server/src'
+let g:netrw_dirhist_6='/Volumes/DSS/weapon-x/packages/wolverine-ui/server'
+let g:netrw_dirhist_5='/Volumes/DSS/weapon-x/packages/wolverine-ui'
+let g:netrw_dirhist_4='/Volumes/DSS/weapon-x/packages/wolverine-ui/src'
+let g:netrw_dirhist_3='/Volumes/DSS/weapon-x/packages/wolverine-ui'
 let g:netrw_dirhist_2='/Volumes/DSS/weapon-x/packages/wolverine-ui/src'
 let g:netrw_dirhist_1='/Volumes/DSS/weapon-x/packages/wolverine-ui'
