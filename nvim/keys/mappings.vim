@@ -1,4 +1,3 @@
-
 imap <C-h> <C-w>h
 imap <C-j> <C-w>j
 imap <C-k> <C-w>k
@@ -22,13 +21,8 @@ nnoremap <leader>/ :CocSearch <C-r>=expand("<cword>")<CR>
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
-" I hate escape more than anything else
 inoremap jk <Esc>
 inoremap kj <Esc>
-
-" Easy CAPS
-" inoremap <c-u> <ESC>viwUi
-" nnoremap <c-u> viwU<Esc>
 
 " TAB in general mode will move to text buffer
 nnoremap <silent> <TAB> :bnext<CR>
@@ -43,7 +37,6 @@ nnoremap <silent> <C-Q> :wq!<CR>
 nnoremap <silent> <C-c> <Esc>
 " <TAB>: completion.
 inoremap <silent> <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-
 
 " Better window navigation
 nnoremap <C-h> <C-w>h

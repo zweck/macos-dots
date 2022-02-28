@@ -24,7 +24,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " auto set indent settings
   Plug 'tpope/vim-sleuth'
 
-  " Text Navigation
+  " Text Navt)€ýS(multiple-cursors-wait)a€kb0:wigation
   Plug 'justinmk/vim-sneak'
   Plug 'unblevable/quick-scope'
   " Plug 'easymotion/vim-easymotion'
@@ -40,7 +40,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Closetags
   Plug 'alvan/vim-closetag'
   " Themes
-  Plug 'christianchiarulli/onedark.vim'
   Plug 'chriskempson/base16-vim'
   Plug 'flrnd/candid.vim'
   " Intellisense
@@ -72,10 +71,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Snippets
   Plug 'honza/vim-snippets'
   Plug 'mattn/emmet-vim'
-  " Interactive code
-  Plug 'ChristianChiarulli/codi.vim'
   " Vim multiple cursor
-  Plug 'terryma/vim-multiple-cursors'
+  " Plug 'terryma/vim-multiple-cursors'
+  Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
   " Delete other buffers
   Plug  'vim-scripts/BufOnly.vim'

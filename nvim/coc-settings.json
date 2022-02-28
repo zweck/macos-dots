@@ -49,12 +49,14 @@
   "explorer.previewAction.onHover": false,
   "explorer.icon.enableVimDevicons": false,
   "explorer.file.showHiddenFiles": true,
-  "explorer.keyMappings": {
-    "<cr>": ["expandable?", "expand", "open"],
-    "v": "open:vsplit"
-  },
 
   "languageserver": {
+    "graphql": {
+      "command": "graphql-lsp",
+      "args": ["server", "-m", "stream"],
+      // customize filetypes to your needs
+      "filetypes": ["javascript", "javascriptreact", "graphql"]
+    },
     "bash": {
       "command": "bash-language-server",
       "args": ["start"],
@@ -63,5 +65,9 @@
     }
   },
 
-  "prettier.eslintIntegration": true
+  "yaml.format.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "extensions": [".js"]
+  }
 }

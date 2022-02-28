@@ -4,6 +4,8 @@
 " _/ // / / / / /__| |/ / / / / / / /
 "/___/_/ /_/_/\__(_)___/_/_/ /_/ /_/
 
+let g:polyglot_disabled = ['csv']
+
 " Always source these
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
@@ -33,9 +35,4 @@ source $HOME/.config/nvim/plug-config/vista.vim
 source $HOME/.config/nvim/plug-config/multiple-cursors.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 
-" Experimental
-
-if !empty(glob("./paths.vim"))
-  source $HOME/.config/nvim/paths.vim
-endif
-let g:polyglot_disabled = ['csv']
+let g:coc_node_path = '$NVM_BIN/node'
