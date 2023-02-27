@@ -124,7 +124,7 @@ let g:which_key_map.g = {
       \ 'p' : [':cprev'                            , 'previous version'],
       \ 'r' : [':GRemove'                          , 'remove'],
       \ 's' : ['<Plug>(GitGutterStageHunk)'        , 'stage hunk'],
-      \ 't' : [':0Glog'                            , 'transient state'],
+      \ 't' : [':0Gclog'                           , 'transient state'],
       \ 'u' : ['<Plug>(GitGutterUndoHunk)'         , 'undo hunk'],
       \ 'v' : [':GV'                               , 'view commits'],
       \ 'V' : [':GV!'                              , 'view buffer commits'],

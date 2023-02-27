@@ -35,7 +35,7 @@
   "coc.preferences.hoverTarget": "float",
 
   // snippets
-  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  "snippets.ultisnips.enable": false,
 
   // emmet
   "emmet.includeLanguages": {
